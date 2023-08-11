@@ -1,0 +1,110 @@
+:root{
+    --cinza-secundario:#c0c0c0;
+    --cor-fonte: #00030c;
+    --cor-de-fundo: #e9942d;
+}
+.body{
+    background-color: var(--cor-de-fundo);
+}
+
+
+.titulo_apresentacao{
+    text-align: center;
+    margin: 22px;  
+
+}
+.texto_apresentacao{
+  display: flex;
+  margin-bottom: 5em ;/*colocar espaçamento*/
+  float: right;
+  align-items: center;
+  list-style-type: none;/*tirar os pontinhos da lista*/
+
+}
+.titulo_experiencias_profissionais{
+    text-align: center;
+    margin: 22px;
+    margin-bottom: 2em ;/*colocar espaçamento*/
+
+}
+.subtitulo_experiencias_profissionais{
+    text-align: center;
+    font-size: 22px;
+}
+.lista_profissionais{
+    text-align: center;
+    list-style-type: none;/*tirar os pontinhos da lista*/
+    margin-bottom: 5em ;/*colocar espaçamento*/
+}
+.titulo_projetos_academicos{
+    text-align: center;
+    margin: 0;
+}
+.confira_projetos_academicos{
+    text-align: center;
+    margin: 0; 
+}
+.texto_projetos_academicos{
+    text-align:center;
+    margin: 0;
+    list-style-type: none;/*tirar os pontinhos da lista*/
+    margin-bottom: 5em ;/*colocar espaçamento*/
+}
+.titulo_projeto_voluntario{
+    text-align: center;
+    margin: 0;
+    margin-top: 22px;
+}
+.texto_projeto_voluntario{
+    text-align:center;
+    margin-bottom: 5em ;/*colocar espaçamento*/
+}
+.informacoes_contato{
+    text-align: center;
+    margin: 0;
+    margin-top: 22px;
+}
+.descricao_contato{
+    text-align: center;
+    margin: 0;
+    font-size: 22px;
+}
+.contato_informacoes{
+    text-align:center;
+    margin-bottom: 5em ;/*colocar espaçamento*/
+    list-style-type: none;/*tirar os pontinhos da lista*/
+}
+
+
+
+
+
+
+
+
+/*Tornando a página responsiva*/
+@media screen and(max-width: 768px){
+    .container{
+        display:block;
+        background-image: none;
+    }
+    .container__imagem{
+        width: 50vw;
+    }
+    .container__caixa{
+        margin:2em 2em;
+    }
+    .secundario{
+        margin: 0;
+        text-align: center;
+    }
+    .secundario__imagem{
+        width: 50vw;
+    }
+    .dispositivos__lista{
+        display:block;
+    }
+    .rodape__lista{
+        display: block;
+    }
+}
