@@ -1,17 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Dai+Banna+SIL:wght@400;700&family=Neuton:ital@1&family=Playfair+Display:ital@0;1&display=swap');
+/*Banner do site*/
+
+
+/*Escolher a palheta de cores do portifolio*/
 :root{
     --cinza-secundario:#c0c0c0;
     --cor-fonte: #00030c;
     --cor-de-fundo: #e9942d;
 }
-.body{
-    background-color: var(--cor-de-fundo);
-}
 
 
 .titulo_apresentacao{
+    height: 100vh;/*considera uso da página inteira*/
     text-align: center;
     margin: 22px;  
-
+    font-family: 'Neuton', serif;
+    
 }
 .texto_apresentacao{
   display: flex;
@@ -19,60 +23,82 @@
   float: right;
   align-items: center;
   list-style-type: none;/*tirar os pontinhos da lista*/
+  font-family: 'Neuton', serif;
 
 }
 .titulo_experiencias_profissionais{
     text-align: center;
     margin: 22px;
     margin-bottom: 2em ;/*colocar espaçamento*/
+    font-family: 'Neuton', serif;
 
 }
 .subtitulo_experiencias_profissionais{
     text-align: center;
     font-size: 22px;
+    font-family: 'Neuton', serif;
+
 }
 .lista_profissionais{
     text-align: center;
     list-style-type: none;/*tirar os pontinhos da lista*/
     margin-bottom: 5em ;/*colocar espaçamento*/
+    font-family: 'Neuton', serif;
+
 }
 .titulo_projetos_academicos{
     text-align: center;
     margin: 0;
+    font-family: 'Neuton', serif;
+
 }
 .confira_projetos_academicos{
     text-align: center;
     margin: 0; 
+    font-family: 'Neuton', serif;
+
 }
 .texto_projetos_academicos{
     text-align:center;
     margin: 0;
     list-style-type: none;/*tirar os pontinhos da lista*/
     margin-bottom: 5em ;/*colocar espaçamento*/
+    font-family: 'Neuton', serif;
+
 }
 .titulo_projeto_voluntario{
     text-align: center;
     margin: 0;
     margin-top: 22px;
+    font-family: 'Neuton', serif;
+
 }
 .texto_projeto_voluntario{
     text-align:center;
     margin-bottom: 5em ;/*colocar espaçamento*/
+    font-family: 'Neuton', serif;
+
 }
 .informacoes_contato{
     text-align: center;
     margin: 0;
     margin-top: 22px;
+    font-family: 'Neuton', serif;
+
 }
 .descricao_contato{
     text-align: center;
     margin: 0;
     font-size: 22px;
+    font-family: 'Neuton', serif;
+
 }
 .contato_informacoes{
     text-align:center;
     margin-bottom: 5em ;/*colocar espaçamento*/
     list-style-type: none;/*tirar os pontinhos da lista*/
+    font-family: 'Neuton', serif;
+
 }
 
 
@@ -83,23 +109,24 @@
 
 
 /*Tornando a página responsiva*/
-@media screen and(max-width: 768px){
+@media screen and(max-width: 600px){
     .container{
         display:block;
         background-image: none;
     }
     .container__imagem{
-        width: 50vw;
+        align-items: center;
+        width: 300vw;
     }
     .container__caixa{
-        margin:2em 2em;
+        margin:4em 4em;
     }
     .secundario{
         margin: 0;
         text-align: center;
     }
     .secundario__imagem{
-        width: 50vw;
+        width: 60vw;
     }
     .dispositivos__lista{
         display:block;
